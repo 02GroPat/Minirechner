@@ -41,6 +41,10 @@ namespace Minirechner
             Console.Write(Subtrahiere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+            Console.Write(" Multiplikation: ");
+            Console.Write(Multipliziere(Zahl1, Zahl2));
+            Console.WriteLine("");
+
 
             Console.ReadKey();
         }
@@ -61,6 +65,15 @@ namespace Minirechner
             ErgebnisSubtr = zahl1 - zahl2;
 
             return ErgebnisSubtr;
+        }
+
+        static Int64 Multipliziere(Int64 zahl1, Int64 zahl2)
+        {
+            Int64 ErgebnisMulti = 0;
+
+            ErgebnisMulti = zahl1 * zahl2;
+
+            return ErgebnisMulti;
         }
     }
 }
