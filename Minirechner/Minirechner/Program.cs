@@ -37,6 +37,11 @@ namespace Minirechner
             Console.Write(Addiere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+            Console.Write(" Subtraktion: ");
+            Console.Write(Subtrahiere(Zahl1, Zahl2));
+            Console.WriteLine("");
+
+
             Console.ReadKey();
         }
 
@@ -47,6 +52,15 @@ namespace Minirechner
             ErgebnisAddi = zahl1 + zahl2;
 
             return ErgebnisAddi;
+        }
+
+        static Int64 Subtrahiere(Int64 zahl1, Int64 zahl2)
+        {
+            Int64 ErgebnisSubtr = 0;
+
+            ErgebnisSubtr = zahl1 - zahl2;
+
+            return ErgebnisSubtr;
         }
     }
 }
