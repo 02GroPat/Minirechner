@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-//Gross Patrick
-//4BEL
-//Minirechner, welcher die Grundrechenarten von zwei eingegebenen Integer Zahlern durchführt
+    //Gross Patrick
+    //4BEL
+    //Minirechner, welcher die Grundrechenarten von zwei eingegebenen Integer Zahlern durchführt
+
 namespace Minirechner
 {
     class Program
@@ -33,28 +34,34 @@ namespace Minirechner
             Console.WriteLine("");
 
 
+            //Addition
             Console.Write(" Addition: ");
             Console.Write(Addiere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+            //Subtraktion
             Console.Write(" Subtraktion: ");
             Console.Write(Subtrahiere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+            //Multiplikation
             Console.Write(" Multiplikation: ");
             Console.Write(Multipliziere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+
+            //Division
             Console.Write(" Division: ");
             Console.Write(Dividiere(Zahl1, Zahl2));
             Console.WriteLine("");
 
 
 
-
             Console.ReadKey();
         }
 
+        //Methode Addition
+        //Addiert zwei Integer Zahlen
         static Int64 Addiere(Int64 zahl1, Int64 zahl2)
         {
             Int64 ErgebnisAddi = 0;
@@ -64,6 +71,8 @@ namespace Minirechner
             return ErgebnisAddi;
         }
 
+        //Methode Subtraktion
+        //Subtrahiert zwei Zahlen
         static Int64 Subtrahiere(Int64 zahl1, Int64 zahl2)
         {
             Int64 ErgebnisSubtr = 0;
@@ -73,6 +82,8 @@ namespace Minirechner
             return ErgebnisSubtr;
         }
 
+        //Methode Multiplikation
+        //Multipliziert zwei Integer Zahlen
         static Int64 Multipliziere(Int64 zahl1, Int64 zahl2)
         {
             Int64 ErgebnisMulti = 0;
@@ -82,6 +93,8 @@ namespace Minirechner
             return ErgebnisMulti;
         }
 
+        //Division
+        //Dividiert zwei Zahlen
         static Int64 Dividiere(Int64 zahl1, Int64 zahl2)
         {
             Int64 ErgebnisDivi = 0;
