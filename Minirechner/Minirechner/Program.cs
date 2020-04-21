@@ -45,6 +45,12 @@ namespace Minirechner
             Console.Write(Multipliziere(Zahl1, Zahl2));
             Console.WriteLine("");
 
+            Console.Write(" Division: ");
+            Console.Write(Dividiere(Zahl1, Zahl2));
+            Console.WriteLine("");
+
+
+
 
             Console.ReadKey();
         }
@@ -74,6 +80,15 @@ namespace Minirechner
             ErgebnisMulti = zahl1 * zahl2;
 
             return ErgebnisMulti;
+        }
+
+        static Int64 Dividiere(Int64 zahl1, Int64 zahl2)
+        {
+            Int64 ErgebnisDivi = 0;
+
+            ErgebnisDivi = zahl1 / zahl2;
+
+            return ErgebnisDivi;
         }
     }
 }

@@ -1,0 +1,4 @@
+C:\Users\Julian\Documents\Patti\Schule\TFO\Trienium\4. Klasse\Aut\GIT\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.exe
+C:\Users\Julian\Documents\Patti\Schule\TFO\Trienium\4. Klasse\Aut\GIT\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.pdb
+C:\Users\Julian\Documents\Patti\Schule\TFO\Trienium\4. Klasse\Aut\GIT\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.exe
+C:\Users\Julian\Documents\Patti\Schule\TFO\Trienium\4. Klasse\Aut\GIT\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.pdb
