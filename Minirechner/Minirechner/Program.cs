@@ -20,10 +20,12 @@ namespace Minirechner
             Console.Write(" Minirechner: \n");
             Console.WriteLine();
 
+            //Eingabe von Zahl1
             Console.Write(" Bitte die erste Zahl eingeben: ");
             Zahl1 = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("");
 
+            //Eingabe von Zahl2
             Console.Write(" Bitte die zweite Zahl eingeben: ");
             Zahl2 = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("");
