@@ -12,7 +12,25 @@ namespace Minirechner
     {
         static void Main(string[] args)
         {
+            Int64 Zahl1;
+            Int64 Zahl2;
 
+            Console.WriteLine("");
+            Console.Write(" Minirechner: \n");
+            Console.WriteLine();
+
+            Console.Write(" Bitte die erste Zahl eingeben: ");
+            Zahl1 = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("");
+
+            Console.Write(" Bitte die zweite Zahl eingeben: ");
+            Zahl2 = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("");
+
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine(" Ergebnisse:");
+            Console.WriteLine("");
         }
     }
 }
