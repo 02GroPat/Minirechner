@@ -31,6 +31,22 @@ namespace Minirechner
             Console.WriteLine("");
             Console.WriteLine(" Ergebnisse:");
             Console.WriteLine("");
+
+
+            Console.Write(" Addition: ");
+            Console.Write(Addiere(Zahl1, Zahl2));
+            Console.WriteLine("");
+
+            Console.ReadKey();
+        }
+
+        static Int64 Addiere(Int64 zahl1, Int64 zahl2)
+        {
+            Int64 ErgebnisAddi = 0;
+
+            ErgebnisAddi = zahl1 + zahl2;
+
+            return ErgebnisAddi;
         }
     }
 }
